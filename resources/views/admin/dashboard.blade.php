@@ -60,7 +60,7 @@
             <div class="user-card d-flex d-md-none align-items-center justify-content-between justify-content-md-center pb-4">
                 <div class="d-flex align-items-center">
                     <div class="avatar-lg me-4">
-                        <img src="{{ asset('assets-admin/img/team/profile-picture-3.jpg')}}" class="card-img-top rounded-circle border-white" alt="Bonnie Green">
+                        <img src="{{ asset('assets-admin/assets/img/team/profile-picture-3.jpg') }}" class="card-img-top rounded-circle border-white" alt="Bonnie Green">
                     </div>
                     <div class="d-block">
                         <h2 class="h5 mb-3">Hi, Jane</h2>
@@ -85,7 +85,7 @@
                 <li class="nav-item">
                     <a href="../../index.html" class="nav-link d-flex align-items-center">
                         <span class="sidebar-icon">
-                            <img src="{{ asset('assets-admin/img/brand/light.svg')}}" height="20" width="20" alt="Volt Logo">
+                            <img src="{{ asset('assets-admin/assets/img/brand/light.svg') }}" height="20" width="20" alt="Volt Logo">
                         </span>
                         <span class="mt-1 ms-1 sidebar-text">Volt Overview</span>
                     </a>
@@ -199,7 +199,7 @@
 											<div class="col-auto">
 												<!-- Avatar -->
 												<img alt="Image placeholder"
-													src="../../assets/img/team/profile-picture-1.jpg"
+													src="{{ asset('assets-admin/assets/img/team/profile-picture-1.jpg') }}"
 													class="avatar-md rounded">
 											</div>
 											<div class="col ps-0 ms-2">
@@ -222,7 +222,7 @@
 											<div class="col-auto">
 												<!-- Avatar -->
 												<img alt="Image placeholder"
-													src="../../assets/img/team/profile-picture-2.jpg"
+													src="{{ asset('assets-admin/assets/img/team/profile-picture-2.jpg') }}"
 													class="avatar-md rounded">
 											</div>
 											<div class="col ps-0 ms-2">
@@ -256,8 +256,7 @@
 							<a class="nav-link dropdown-toggle pt-1 px-0" href="#" role="button"
 								data-bs-toggle="dropdown" aria-expanded="false">
 								<div class="media d-flex align-items-center">
-									<img class="avatar rounded-circle" alt="Image placeholder"
-										src="../../assets/img/team/profile-picture-3.jpg">
+									<img class="avatar rounded-circle" alt="Image placeholder" src="{{ asset('assets-admin/assets/img/team/profile-picture-3.jpg') }}">
 									<div class="media-body ms-2 text-dark align-items-center d-none d-lg-block">
 										<span class="mb-0 font-small fw-bold text-gray-900">Bonnie Green</span>
 									</div>
@@ -534,8 +533,7 @@
 											<div class="col-auto">
 												<!-- Avatar -->
 												<a href="#" class="avatar">
-													<img class="rounded" alt="Image placeholder"
-														src="../../assets/img/team/profile-picture-1.jpg">
+													<img class="rounded" alt="Chris Wood" src="{{ asset('assets-admin/assets/img/team/profile-picture-1.jpg') }}">
 												</a>
 											</div>
 											<div class="col-auto ms--2">
@@ -566,8 +564,7 @@
 											<div class="col-auto">
 												<!-- Avatar -->
 												<a href="#" class="avatar">
-													<img class="rounded" alt="Image placeholder"
-														src="../../assets/img/team/profile-picture-2.jpg">
+													<img class="rounded" alt="Jose Leos" src="{{ asset('assets-admin/assets/img/team/profile-picture-2.jpg') }}">
 												</a>
 											</div>
 											<div class="col-auto ms--2">
@@ -598,8 +595,7 @@
 											<div class="col-auto">
 												<!-- Avatar -->
 												<a href="#" class="avatar">
-													<img class="rounded" alt="Image placeholder"
-														src="../../assets/img/team/profile-picture-3.jpg">
+													<img class="rounded" alt="Bonnie Green" src="{{ asset('assets-admin/assets/img/team/profile-picture-3.jpg') }}">
 												</a>
 											</div>
 											<div class="col-auto ms--2">
@@ -630,8 +626,7 @@
 											<div class="col-auto">
 												<!-- Avatar -->
 												<a href="#" class="avatar">
-													<img class="rounded" alt="Image placeholder"
-														src="../../assets/img/team/profile-picture-4.jpg">
+													<img class="rounded" alt="Neil Sims" src="{{ asset('assets-admin/assets/img/team/profile-picture-4.jpg') }}">
 												</a>
 											</div>
 											<div class="col-auto ms--2">
@@ -778,7 +773,7 @@
 					<div class="card shadow border-0 text-center p-0">
 						<div class="profile-cover rounded-top" data-background="../../assets/img/profile-cover.jpg" style="background: url(&quot;../../assets/img/profile-cover.jpg&quot;);"></div>
 						<div class="card-body pb-5">
-							<img src="../../assets/img/team/profile-picture-1.jpg" class="avatar-xl rounded-circle mx-auto mt-n7 mb-4" alt="Neil Portrait">
+							<img src="{{ asset('assets-admin/assets/img/team/profile-picture-1.jpg') }}" class="avatar-xl rounded-circle mx-auto mt-n7 mb-4" alt="Neil Portrait">
 							<h4 class="h3">Neil Sims</h4>
 							<h5 class="fw-normal">Senior Software Engineer</h5>
 							<p class="text-gray mb-4">New York, USA</p>
