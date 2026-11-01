@@ -32,7 +32,11 @@ class QuestionController extends Controller
         $data['email'] = $request->email;
         $data['pertanyaan'] = $request->pertanyaan;
 
-        return view('home-question-respon', $data);
+        // Susun pesan dinamis menggunakan data dari array $data
+        $pesan = "Terimakasih <b>{$data['nama']}</b>! Pertanyaan ini: <b>{$data['pertanyaan']}</b> akan segera direspon melalui email <b>{$data['email']}</b>";
+
+        // Redirect kembali ke /home dengan pesan flash data
+        return redirect('/home')->with('info', $pesan);
 
     }
 

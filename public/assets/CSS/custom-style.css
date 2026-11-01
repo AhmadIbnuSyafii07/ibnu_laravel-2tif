@@ -1,0 +1,12 @@
+body {
+    background-color: #ffffff;
+}
+
+@font-face {
+    font-family: 'ChangaOne';
+    src: url('../fonts/ChangaOne-Regular.ttf');
+}
+
+.font-custom {
+    font-family: 'ChangaOne';
+}
